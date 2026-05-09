@@ -1,6 +1,6 @@
 console.log("JS loaded");
 
-const items = document.getElementsByClassName("main-swiper__item");
+const items = document.querySelectorAll(".main-swiper__item");
 
 for (let i = 0; i < items.length; i++) {
   items[i].addEventListener("mouseenter", expand);
