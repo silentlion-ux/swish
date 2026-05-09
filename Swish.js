@@ -8,7 +8,7 @@ for (let i = 0; i < items.length; i++) {
 }
 
 function expand(e) {
-  for (let i=0; i<items.length; i++){ items[i].style.flex = 0; }
+  for (let i=0; i<items.length; i++){ items[i].style.flex = 1; }
   e.currentTarget.style.flex = 4;
   e.currentTarget.querySelector("img").style.transform = "scale(1.2)";
 }
