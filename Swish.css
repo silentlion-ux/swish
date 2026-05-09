@@ -14,6 +14,7 @@ body {
 .main-swiper__flex {
   display: flex;
   height: 100%;
+  width: 50%;
   background: dodgerblue;
   padding: 0;
   margin: 0;
