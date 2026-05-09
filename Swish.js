@@ -9,7 +9,7 @@ for (let i = 0; i < items.length; i++) {
 
 function expand(e) {
   for (x in items){ items[x].style.flex = 1; }
-  e.currentTarget.style.flex = 2;
+  e.currentTarget.style.flex = 4;
   e.currentTarget.querySelector("img").style.transform = "scale(1.2)";
 }
 
