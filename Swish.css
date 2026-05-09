@@ -23,12 +23,12 @@ body {
 .main-swiper__item {
   flex: 0;
   height: 100%;
-  min-width: 10%;
   transition: flex 0.3s ease;
 }
 
 .main-swiper__item img {
   height: 100%;
+  min-width: 10%;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
