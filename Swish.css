@@ -22,6 +22,7 @@ body {
 
 .main-swiper__item {
   flex: 0;
+  min-width: 10%;
   height: 100%;
   transition: flex 0.3s ease;
 }
