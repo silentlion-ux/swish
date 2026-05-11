@@ -1,4 +1,5 @@
 console.log("JS loaded");
+document.getElementById("headTest").innerHtml += "v1";
 
 const items = document.querySelectorAll(".main-swiper__item");
 
